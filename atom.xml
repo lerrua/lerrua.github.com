@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[/lerrua]]></title>
+  <link href="http://lerrua.github.io/atom.xml" rel="self"/>
+  <link href="http://lerrua.github.io/"/>
+  <updated>2013-11-26T18:43:36-02:00</updated>
+  <id>http://lerrua.github.io/</id>
+  <author>
+    <name><![CDATA[Igor P. Leroy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+</feed>
