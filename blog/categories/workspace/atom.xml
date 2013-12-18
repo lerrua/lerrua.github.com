@@ -4,7 +4,7 @@
   <title><![CDATA[Category: workspace | /lerrua]]></title>
   <link href="http://lerrua.github.io/blog/categories/workspace/atom.xml" rel="self"/>
   <link href="http://lerrua.github.io/"/>
-  <updated>2013-11-28T00:40:27-02:00</updated>
+  <updated>2013-12-18T11:59:42-02:00</updated>
   <id>http://lerrua.github.io/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -20,34 +20,34 @@
     <id>http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
     <content type="html"><![CDATA[<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
 
-<h3>1 &ndash; Unix</h3>
+<h4>1 &ndash; Unix</h4>
 
 <p>Trabalho com sistemas Unix desde 2009. Na maior parte do tempo usando o Mac OSX, fato curioso é que utilizo Linux no computador do escritório e
 por incrível que pareça não me incomodo tanto entre variar entre os dois OS. Uma dica para quem quer usar alguma distro linux leve e que não fuja tanto do visual do OSX são as distros PearOS e o Elementary.</p>
 
-<h3>2 &ndash; Bash</h3>
+<h4>2 &ndash; Bash</h4>
 
 <p>Apesar de utilizar o ZSH no escritório considero bash ainda o <a href="https://github.com/lerrua/dotfiles" title="dotfiles">meu default</a>, me sinto mais confortável com ele.</p>
 
-<h3>3 &ndash; Vim</h3>
+<h4>3 &ndash; Vim</h4>
 
 <p>O meu fiel companheiro desde 2010, já tentei todos os editores e IDEs que imaginar mas Vim é algo único. Atualmente <a href="https://github.com/lerrua/vimfiles" title="Vimfiles">meu vimfiles</a> é focado para devs Python, mas atende também quem codifica em outras linguagens.</p>
 
-<h3>4 &ndash; Git</h3>
+<h4>4 &ndash; Git</h4>
 
-<p>SVN e Windows, coisas que não uso desde 2009.</p>
+<p>SVN e Windows, coisas que não uso há um bom tempo&hellip;</p>
 
-<h3>5 &ndash; Python</h3>
+<h4>5 &ndash; Python</h4>
 
-<p>Pra quem me conhece sabe que Ruby foi a base da minha criação como desenvolver, mas nos últimos dois anos Python vem fazendo fortemente parte da minha vida.</p>
+<p>Pra quem me conhece sabe que Ruby foi a base da minha criação como programador, mas nos últimos dois anos Python vem fazendo fortemente parte da minha vida.</p>
 
-<h3>6 &ndash; Chrome</h3>
+<h4>6 &ndash; Chrome</h4>
 
 <p>Inspect > Firebug, simples assim.</p>
 
-<h3>7 &ndash; IRC, skype</h3>
+<h4>7 &ndash; IRC, skype</h4>
 
-<p>Skype é uma das poucas coisas que deixo 24hs conectado principalmente por conta do trabalho enquanto IRC é um hábito que ainda tento retomar.</p>
+<p>Skype ainda é uma das poucas coisas que deixo 24hs conectado principalmente por conta de algumas reuniões, enquanto IRC é um hábito que ainda tento retomar.</p>
 ]]></content>
   </entry>
   

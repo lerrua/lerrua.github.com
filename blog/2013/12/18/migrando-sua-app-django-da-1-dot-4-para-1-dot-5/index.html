@@ -3,11 +3,12 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Meu ambiente de trabalho em 7 itens - /lerrua</title>
+	<title>Migrando sua app Django da 1.4 para 1.5 - /lerrua</title>
 	<meta name="author" content="Igor P. Leroy">
 
 	
-	<meta name="description" content="Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a &hellip;">
+	<meta name="description" content="Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
+Foi um pouco &hellip;">
 	
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -85,37 +86,36 @@
 		
 	
 	<div id="content" class="inner"><article class="post">
-	<h2 class="title">Meu ambiente de trabalho em 7 itens</h2>
-	<div class="entry-content"><p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
+	<h2 class="title">Migrando sua app Django da 1.4 para 1.5</h2>
+	<div class="entry-content"><p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
+Foi um pouco demorado, mas nada realmente que dure mais de um dia de trabalho. Primeiramente leia a <a href="https://docs.djangoproject.com/en/dev/releases/1.5/" title="release notes django 1.5">release notes</a>, não precisei ler nenhum outro
+artigo além desse para migrar minha aplicação.</p>
 
-<h4>1 &ndash; Unix</h4>
+<h4>Third apps</h4>
 
-<p>Trabalho com sistemas Unix desde 2009. Na maior parte do tempo usando o Mac OSX, fato curioso é que utilizo Linux no computador do escritório e
-por incrível que pareça não me incomodo tanto entre variar entre os dois OS. Uma dica para quem quer usar alguma distro linux leve e que não fuja tanto do visual do OSX são as distros PearOS e o Elementary.</p>
+<p>Módulos como o <code>simplejson</code> e <code>localflavor</code> foram removidos do Django e se tornaram apps independentes. A simplejson pode ser facilmente substituída pelo módulo <a href="http://docs.python.org/2.7/library/json.html#module-json" title="json">json</a> nativo da linguagem.</p>
 
-<h4>2 &ndash; Bash</h4>
+<p>Outros módulos também serão deprecados nas próximas releases, então para não ter tanto trabalho futuro sugiro dar uma lida na <a href="https://docs.djangoproject.com/en/dev/internals/deprecation/" title="roadmap">deprecation timeline</a> e já se preparar para eventuais mudanças.</p>
 
-<p>Apesar de utilizar o ZSH no escritório considero bash ainda o <a href="https://github.com/lerrua/dotfiles" title="dotfiles">meu default</a>, me sinto mais confortável com ele.</p>
+<h4>New-style url</h4>
 
-<h4>3 &ndash; Vim</h4>
+<p>O padrão de urls nas templates mudou, use <code>{% url "app:my_view" param1 %}</code> ao invés de <code>{% url "app:my_view" param1 %}</code>.</p>
 
-<p>O meu fiel companheiro desde 2010, já tentei todos os editores e IDEs que imaginar mas Vim é algo único. Atualmente <a href="https://github.com/lerrua/vimfiles" title="Vimfiles">meu vimfiles</a> é focado para devs Python, mas atende também quem codifica em outras linguagens.</p>
+<p>Esse &ldquo;novo&rdquo; padrão é válido desde a 1.3, desde que esteja usando a <code>load url from future</code> em seu template.</p>
 
-<h4>4 &ndash; Git</h4>
+<h4>Deprecate warnings</h4>
 
-<p>SVN e Windows, coisas que não uso há um bom tempo&hellip;</p>
+<p>É normal a primeiro momento rodar um runserver e se deparar com vários warnings no terminal, alguns warnings de deprecations que você solucionou os mantenedores de suas libs terceiras também terão de solucionar. Recomendo fortemente visitar
+as docs de suas principais dependências e verificar o changelog, provavelmente algum homem de bem criou uma versão especifica compatível com a versão de Django que você usa.</p>
 
-<h4>5 &ndash; Python</h4>
+<p>Tendo esse cuidado acredito que esses warnings sumirão e você terá menos trabalho para um futuro upgrade em sua aplicação.</p>
 
-<p>Pra quem me conhece sabe que Ruby foi a base da minha criação como programador, mas nos últimos dois anos Python vem fazendo fortemente parte da minha vida.</p>
+<h4>Django 1.6</h4>
 
-<h4>6 &ndash; Chrome</h4>
+<p>Nesse fim de ano saiu a primeira release estável da 1.6, talvez vocês se perguntem porquê eu não fiz o upgrade da 1.4.x diretamente para 1.6.0 e as respostas são simples.</p>
 
-<p>Inspect > Firebug, simples assim.</p>
-
-<h4>7 &ndash; IRC, skype</h4>
-
-<p>Skype ainda é uma das poucas coisas que deixo 24hs conectado principalmente por conta de algumas reuniões, enquanto IRC é um hábito que ainda tento retomar.</p>
+<p>Baby-steps, seria traumático demais fazer essa atualização sem resolver as coisas novas da 1.5 primeiro e um outro motivo, dependências. Muitas libs ainda estão fazendo esse trabalho
+de upgrade, onde grande parte ainda tem o Django 1.5 como base de sua release estável. Mas nada problemático, logo logo também farei esse trabalho e posto aqui novamente. ;)</p>
 </div>
     <div class="meta">
         <div class="date">
@@ -130,11 +130,11 @@ por incrível que pareça não me incomodo tanto entre variar entre os dois OS. 
   
 
 
-<time datetime="2013-11-27T18:39:00-02:00" pubdate data-updated="true">Nov 27<span>th</span>, 2013</time></div>
+<time datetime="2013-12-18T12:35:00-02:00" pubdate data-updated="true">Dec 18<span>th</span>, 2013</time></div>
         <div class="tags">
 
 
-	<a class='category' href='/blog/categories/workspace/'>workspace</a>
+	<a class='category' href='/blog/categories/django/'>django</a>
 
 
 </div>
@@ -180,8 +180,8 @@ por incrível que pareça não me incomodo tanto entre variar entre os dois OS. 
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/';
-        var disqus_url = 'http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/';
+        var disqus_identifier = 'http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/';
+        var disqus_url = 'http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/';
         var disqus_script = 'embed.js';
       
     (function () {
