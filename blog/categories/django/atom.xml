@@ -4,7 +4,7 @@
   <title><![CDATA[Category: django | /lerrua]]></title>
   <link href="http://lerrua.github.io/blog/categories/django/atom.xml" rel="self"/>
   <link href="http://lerrua.github.io/"/>
-  <updated>2013-12-19T15:12:57-02:00</updated>
+  <updated>2013-12-19T15:14:45-02:00</updated>
   <id>http://lerrua.github.io/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -23,7 +23,7 @@ tinham essa cultura.</p>
 
 <p>Esses workshops podem ser pequenos cursos, longos ou mesmo palestras, geralmente onde a empresa toda participa.</p>
 
-<p>Bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs das duas linguagens, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
+<p>Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs das duas linguagens, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
 o mundo Python.</p>
 
 <iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
