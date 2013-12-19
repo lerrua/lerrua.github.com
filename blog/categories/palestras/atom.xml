@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: palestras | /lerrua]]></title>
+  <link href="http://lerrua.github.io/blog/categories/palestras/atom.xml" rel="self"/>
+  <link href="http://lerrua.github.io/"/>
+  <updated>2013-12-19T15:09:39-02:00</updated>
+  <id>http://lerrua.github.io/</id>
+  <author>
+    <name><![CDATA[Igor P. Leroy]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[[Slides] Introdução a testes com Django]]></title>
+    <link href="http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
+    <updated>2013-12-19T12:32:00-02:00</updated>
+    <id>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
+    <content type="html"><![CDATA[<p>Algumas empresas tem a cultura de ministrar Workshops entre seus funcionários com o objetivo de compartilhar conhecimento, por uma grata sorte minha atual e última empresa
+tinham essa cultura.</p>
+
+<p>Esses workshops podem ser pequenos cursos, longos ou mesmo palestras, geralmente onde a empresa toda participa.</p>
+
+<p>Bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs das duas linguagens, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
+o mundo Python.</p>
+
+<iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+]]></content>
+  </entry>
+  
+</feed>
