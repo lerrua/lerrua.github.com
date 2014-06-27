@@ -1,3 +1,11 @@
+body {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    background: #eee;
+    color: #000;
+}
+
 .date-post-title {
     margin-left: 10px;
     font-size: 14px;
@@ -10,9 +18,35 @@ article {
     position: relative;
 }
 
+
 article h2.title {
     font-size: 1.8em;
     font-weight: 300;
     line-height: 35px;
-    margin-bottom: 5px;
+    margin-bottom: 30px;
+}
+
+article h2.title a:hover {
+    color: #258fb8;
+}
+
+.post h2.title {
+    margin-left: 0px; !important
+}
+
+.post h2.inside_post {
+    margin-left: 200px;
+}
+
+.post .meta {
+    top: 85px;
+    line-height: 2;
+    font-size: 0.9em;
+    color: #999;
+    width: 170px;
+    position: initial;
+}
+
+.post .entry-content {
+    margin-left: 0px; !important
 }
