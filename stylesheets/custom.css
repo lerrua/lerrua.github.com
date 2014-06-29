@@ -20,7 +20,7 @@ article {
 
 
 article h2.title {
-    font-size: 1.8em;
+    font-size: 1.6em;
     font-weight: 300;
     line-height: 35px;
     margin-bottom: 30px;
@@ -30,8 +30,10 @@ article h2.title a:hover {
     color: #258fb8;
 }
 
-.post h2.title {
-    margin-left: 0px; !important
+.post h2.list_post {
+    margin-left: 200px !important;
+    font-size: 1.1em !important;
+    margin-bottom: 5px;
 }
 
 .post h2.inside_post {

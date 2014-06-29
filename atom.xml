@@ -4,7 +4,7 @@
   <title><![CDATA[/lerrua]]></title>
   <link href="http://lerrua.github.io/atom.xml" rel="self"/>
   <link href="http://lerrua.github.io/"/>
-  <updated>2014-06-27T17:16:59-03:00</updated>
+  <updated>2014-06-29T10:46:13-03:00</updated>
   <id>http://lerrua.github.io/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -48,8 +48,16 @@ artigo além desse para migrar minha aplicação.</p>
 
 <h4>New-style url</h4>
 
-<p>O padrão de urls nas templates mudou, use <code>{% url "app:my_view" param1 %}</code>
-ao invés de <code>{% url app:my_view param1 %}</code>.</p>
+<p>O padrão de urls nas templates mudou, use:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>{% url &quot;app:my_view&quot; param1 %}
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>
+ao invés de:
+<code>{% url app:my_view param1 %}</code>.</p>
 
 <p>Esse &ldquo;novo&rdquo; padrão é válido desde a 1.3, desde que esteja usando a <code>load url from future</code> em seu template.</p>
 
