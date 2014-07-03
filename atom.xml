@@ -4,7 +4,7 @@
   <title><![CDATA[/lerrua]]></title>
   <link href="http://lerrua.github.io/atom.xml" rel="self"/>
   <link href="http://lerrua.github.io/"/>
-  <updated>2014-06-30T11:39:08-03:00</updated>
+  <updated>2014-07-02T21:47:24-03:00</updated>
   <id>http://lerrua.github.io/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -14,7 +14,93 @@
 
   
   <entry>
-    <title type="html"><![CDATA[[Slides] Introdução a testes com Django]]></title>
+    <title type="html"><![CDATA[Redimensionando imagens com Python]]></title>
+    <link href="http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python/"/>
+    <updated>2014-07-02T21:18:00-03:00</updated>
+    <id>http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python</id>
+    <content type="html"><![CDATA[<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
+quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
+
+<p>Perda de tempo maior ainda seria se fossem 20 ou 30 imagens, imaginem? Pois é.</p>
+
+<p>Sorte que com python podemos automatizar esse trabalho com apenas algumas linhas de código.</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>pip install Pillow </span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pillow é um fork mantido pela comunidade da PIL (Python Image Library), é com ela que vamos fazer essa brincadeira.</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">import</span> <span class="nn">PIL</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># Queremos gerar uma imagem com tamanho 300x200</span>
+</span><span class='line'><span class="n">wsize</span> <span class="o">=</span> <span class="mi">300</span>
+</span><span class='line'><span class="n">hsize</span> <span class="o">=</span> <span class="mi">200</span>
+</span><span class='line'>
+</span><span class='line'><span class="n">img</span> <span class="o">=</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#39;/path/to/original_picture.png&#39;</span><span class="p">)</span>
+</span><span class='line'>
+</span><span class='line'><span class="c"># redimensionamos sem perder a qualidade</span>
+</span><span class='line'><span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">resize</span><span class="p">((</span><span class="n">wsize</span><span class="p">,</span> <span class="n">hsize</span><span class="p">),</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">ANTIALIAS</span><span class="p">)</span>
+</span><span class='line'><span class="n">img</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s">&#39;/path/to/new_img.png&#39;</span><span class="p">)</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>Pronto! Sua <code>new_img.png</code> foi gerada na pasta que apontou acima.</p>
+
+<p>Quanto ao problema que citei no começo desse post, é uma solução bastante simples. Vamos apenas iterar esse código acima, mais ou menos assim:</p>
+
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># Vamos supor que esses são os nomes das imagens</span>
+</span><span class='line'><span class="n">IMGS</span> <span class="o">=</span> <span class="p">[</span>
+</span><span class='line'>    <span class="s">&#39;original_img_1&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s">&#39;original_img_2&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s">&#39;original_img_3&#39;</span><span class="p">,</span>
+</span><span class='line'>    <span class="s">&#39;original_img_4&#39;</span><span class="p">,</span>
+</span><span class='line'><span class="p">]</span>
+</span><span class='line'>
+</span><span class='line'><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">IMGS</span><span class="p">:</span>
+</span><span class='line'>    <span class="n">wsize</span> <span class="o">=</span> <span class="mi">300</span>
+</span><span class='line'>    <span class="n">hsize</span> <span class="o">=</span> <span class="mi">200</span>
+</span><span class='line'>    <span class="n">img</span> <span class="o">=</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#39;/path/to/{}.png&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+</span><span class='line'>    <span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">resize</span><span class="p">((</span><span class="n">wsize</span><span class="p">,</span> <span class="n">hsize</span><span class="p">),</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">ANTIALIAS</span><span class="p">)</span>
+</span><span class='line'>    <span class="c"># na pasta /thumbs será gerada a imagem com mesmo </span>
+</span><span class='line'>    <span class="c"># nome que a imagem original.</span>
+</span><span class='line'>    <span class="n">img</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s">&#39;/path/to/thumbs/{}.png&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>E é isso, se pensarmos em número de 20 imagens então acabamos de economizar um precioso tempo que seria gasto com um trabalho bem chato e repetitivo.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[[slides] Introdução a testes com Django]]></title>
     <link href="http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
     <updated>2013-12-19T12:32:00-02:00</updated>
     <id>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
