@@ -34,6 +34,7 @@ plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
 markdown: rdiscount
+sharing: true
 rdiscount:
   extensions:
     - autolink
@@ -41,12 +42,12 @@ rdiscount:
     - smart
 pygments: false # default python pygments have been replaced by pygments.rb
 
-paginate: 10          # Posts per page on the blog index
+paginate: 6          # Posts per page on the blog index
 pagination_dir: blog  # Directory base for pagination URLs eg. /blog/page/2/
 recent_posts: 5       # Posts in the sidebar Recent Posts section
 excerpt_link: "Read on &rarr;"  # "Continue reading" link text at the bottom of excerpted articles
 
-titlecase: true       # Converts page and post titles to titlecase
+titlecase: false       # Converts page and post titles to titlecase
 
 # list each of the sidebar modules you want to include, in the order you want them to appear.
 # To add custom asides, create files in /source/_includes/custom/asides/ and add them to the list like 'custom/asides/custom_aside_name.html'
@@ -78,7 +79,7 @@ google_plus_one_size: medium
 
 # Google Plus Profile
 # Hidden: No visible button, just add author information to search results
-googleplus_user:
+googleplus_user: '+IgorLeroy'
 googleplus_hidden: false
 
 # Pinboard
@@ -90,11 +91,17 @@ delicious_user:
 delicious_count: 3
 
 # Disqus Comments
-disqus_short_name:
+disqus_short_name: lerrua
 disqus_show_comment_count: false
 
+# Coderwall
+coderwall_user: leroy
+
+# Linkedin 
+linkedin_user: igorleroy
+
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: 'UA-46071003-1'
 
 # Facebook Like
 facebook_like: true
