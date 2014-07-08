@@ -2,40 +2,44 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/</loc>
-        <lastmod>2014-03-16T22:55:51-03:00</lastmod>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
         <loc>
             http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/
         </loc>
-        <lastmod>2014-06-29T22:57:17-03:00</lastmod>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/</loc>
-        <lastmod>2014-07-02T21:19:36-03:00</lastmod>
+        <lastmod>2014-07-08T11:40:25-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python/</loc>
-        <lastmod>2014-07-02T21:47:23-03:00</lastmod>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/about/</loc>
-        <lastmod>2013-11-28T18:02:14-02:00</lastmod>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/archives/</loc>
-        <lastmod>2014-07-02T21:47:23-03:00</lastmod>
+        <lastmod>2014-07-08T11:40:25-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/blog/archives/</loc>
-        <lastmod>2014-07-02T21:47:23-03:00</lastmod>
+        <lastmod>2014-07-08T11:40:25-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://lerrua.github.io/blog/categories/</loc>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/</loc>
-        <lastmod>2014-07-02T21:47:23-03:00</lastmod>
+        <lastmod>2014-07-08T11:40:25-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.github.io/robots.txt</loc>
-        <lastmod>2013-11-26T18:17:19-02:00</lastmod>
+        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
 </urlset>

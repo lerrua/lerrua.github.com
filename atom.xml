@@ -4,11 +4,11 @@
   <title><![CDATA[/lerrua]]></title>
   <link href="http://lerrua.github.io/atom.xml" rel="self"/>
   <link href="http://lerrua.github.io/"/>
-  <updated>2014-07-03T14:26:57-03:00</updated>
+  <updated>2014-07-08T11:40:25-03:00</updated>
   <id>http://lerrua.github.io/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
-    
+    <email><![CDATA[ip.leroy@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -112,7 +112,7 @@ tinham essa cultura.</p>
 <p>Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs dos dois frameworks, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
 o mundo Python.</p>
 
-<iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ]]></content>
   </entry>
