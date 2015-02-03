@@ -17,4 +17,4 @@ Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on R
 o mundo Python.
 
 
-<iframe src="//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -1,40 +1,39 @@
 $img-border: inline-image('dotted-border.png');
 
 // Main Link Colors
-$link-color: #3464a4 !default;
+$link-color: #195ea2 !default;
 $link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
-$link-color-visited: $link-color;
+$link-color-visited: adjust-color($link-color, $saturation: -20, $lightness: -4) !default;
 $link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
 
 // Main Section Colors
-$main-bg: #f2f2f2 !default;
-$page-bg: #262C33 !default;
+$main-bg: #f8f8f8 !default;
+$page-bg: #fff !default;
 $article-border: #eeeeee !default;
-$content-bg: #F8F8F8;
 
-$header-bg: #333 !default;
+$header-bg: #fff !default;
 $header-border: lighten($header-bg, 15) !default;
-$title-color: #f2f2f2 !default;
-$subtitle-color: #aaa !default;
+$title-color: #777777 !default;
+$subtitle-color: lighten($title-color, 25) !default;
 
 $text-color: #222 !default;
-$text-color-light: #aaa !default;
+$text-color-light: lighten($text-color, 60) !default;
 $type-border: #ddd !default;
 
 /* Navigation */
-$nav-bg: #ccc !default;
+$nav-bg: #fff !default;
 $nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
-$nav-color: darken($nav-bg, 38) !default;
-$nav-color-hover: darken($nav-color, 25) !default;
+$nav-color: darken($nav-bg, 55) !default;
+$nav-color-hover: darken($nav-color, 35) !default;
 $nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
 $nav-border: darken($nav-bg, 10) !default;
-$nav-border-top: lighten($nav-bg, 15) !default;
-$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-top: darken($nav-bg, 5) !default;
+$nav-border-bottom: darken($nav-bg, 5) !default;
 $nav-border-left: darken($nav-bg, 11) !default;
 $nav-border-right: lighten($nav-bg, 7) !default;
 
 /* Sidebar colors */
-$sidebar-bg: #f2f2f2 !default;
+$sidebar-bg: #fff !default;
 $sidebar-link-color: $link-color !default;
 $sidebar-link-color-hover: $link-color-hover !default;
 $sidebar-link-color-active: $link-color-active !default;
@@ -43,7 +42,6 @@ $sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
 $sidebar-border-hover: darken($sidebar-bg, 7) !default;
 $sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
 $sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
-$twitter-status-link: lighten($sidebar-link-color-subdued, 15) !default;
 
 $footer-color: #888 !default;
 $footer-bg: #ccc !default;
@@ -70,66 +68,15 @@ a {
 }
 
 html {
-  background: $page-bg image-url('line-tile.png') top left;
+  background: $page-bg;
 }
 body {
-  #main{
-    background: $main-bg;
-  }
-  #content{
-    background: $content-bg;
-  }
   > div {
+    background: $page-bg;
     border-bottom: 1px solid $page-border-bottom;
     > div {
+      background: $page-bg;
       border-right: 1px solid $sidebar-border;
     }
-  }
-}
-
-.notfound404 article{
-  margin-left: 0 !important;
-}
-
-@media only screen and (min-width: 550px) {
-
-  body > header h2 { padding-left: 3px; }
-
-  body > footer { margin-bottom: 3em; }
-}
-
-@media only screen and (min-width: 1040px) {
- 
-  body > nav {
-    -moz-border-radius: 0.4em;
-    -webkit-border-radius: 0.4em;
-    border-radius:0.4em;
-    margin-bottom: 2em;
-  }
-
-  body > footer{
-    -moz-border-radius-bottomleft: 0.4em;
-    -moz-border-radius-bottomright: 0.4em;
-    -webkit-border-radius: 0 0 0.4em 0.4em;
-    border-radius: 0 0 0.4em 0.4em;
-  }
-
-  #main{
-    -moz-border-radius-topleft: 0.4em;
-    -moz-border-radius-topright: 0.4em;
-    -webkit-border-radius: 0.4em 0.4em 0 0;
-    border-radius: 0.4em 0.4em 0 0;
-  }
-
-  #content{
-    -moz-border-radius-topleft: 0.4em;
-    -webkit-border-radius: 0.4em 0 0 0;
-    border-radius: 0.4em 0 0 0;
-  }
-
-  #content .blog-index a[rel="full-article"]{
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
-    border-radius: 6px;
   }
 }
