@@ -2,12 +2,17 @@
 layout: default
 ---
 
-<div class="blog-index">
+<div id="blog-archives" class="blog-index">
   {% assign index = true %}
   {% for post in paginator.posts %}
-  {% assign content = post.content %}
+  	{% assign content = post.content %}
+	{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+	{% unless year == this_year %}
+		{% assign year = this_year %}
+		<h2>{{ year }}</h2>
+	{% endunless %}
     <article>
-      {% include article.html %}
+      {% include archive_post.html %}
     </article>
   {% endfor %}
   <div class="pagination">
