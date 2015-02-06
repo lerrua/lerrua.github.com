@@ -9,8 +9,9 @@
   <meta name="author" content="Igor P. Leroy">
 
   
-  <meta name="description" content="Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
-quebrar algum galho, tarefas bobas &hellip;">
+  <meta name="description" content="2014 Redimensionando imagens com Python
+Jul 02 2014 posted in python 2013 [slides] Introdução a testes com Django
+Dec 19 2013 posted in django, &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -99,301 +100,71 @@ quebrar algum galho, tarefas bobas &hellip;">
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div id="blog-archives" class="blog-index">
   
   
-  
+  	
+	
+	
+		
+		<h2>2014</h2>
+	
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2014/07/02/redimensionando-imagens-com-python/">Redimensionando imagens com Python</a></h1>
-    
-    
-      <p class="meta">
-        
+<h1><a href="/blog/2014/07/02/redimensionando-imagens-com-python/">Redimensionando imagens com Python</a></h1>
+<time datetime="2014-07-02T21:18:00-03:00" pubdate><span class='month'>Jul</span> <span class='day'>02</span> <span class='year'>2014</span></time>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2014-07-02T21:18:00-03:00" pubdate data-updated="true">Jul 2<span>nd</span>, 2014</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
-quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
-
-<p>Perda de tempo maior ainda seria se fossem 20 ou 30 imagens, imaginem? Pois é.</p>
-
-<p>Sorte que com python podemos automatizar esse trabalho com apenas algumas linhas de código.</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>pip install Pillow </span></code></pre></td></tr></table></div></figure>
-
-
-<p>Pillow é um fork mantido pela comunidade da PIL (Python Image Library), é com ela que vamos fazer essa brincadeira.</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="kn">import</span> <span class="nn">PIL</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># Queremos gerar uma imagem com tamanho 300x200</span>
-</span><span class='line'><span class="n">wsize</span> <span class="o">=</span> <span class="mi">300</span>
-</span><span class='line'><span class="n">hsize</span> <span class="o">=</span> <span class="mi">200</span>
-</span><span class='line'>
-</span><span class='line'><span class="n">img</span> <span class="o">=</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#39;/path/to/original_picture.png&#39;</span><span class="p">)</span>
-</span><span class='line'>
-</span><span class='line'><span class="c"># redimensionamos sem perder a qualidade</span>
-</span><span class='line'><span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">resize</span><span class="p">((</span><span class="n">wsize</span><span class="p">,</span> <span class="n">hsize</span><span class="p">),</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">ANTIALIAS</span><span class="p">)</span>
-</span><span class='line'><span class="n">img</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s">&#39;/path/to/new_img.png&#39;</span><span class="p">)</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>Pronto! Sua <code>new_img.png</code> foi gerada na pasta que apontou acima.</p>
-
-<p>Quanto ao problema que citei no começo desse post, é uma solução bastante simples. Vamos apenas iterar esse código acima, mais ou menos assim:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class='python'><span class='line'><span class="c"># Vamos supor que esses são os nomes das imagens</span>
-</span><span class='line'><span class="n">IMGS</span> <span class="o">=</span> <span class="p">[</span>
-</span><span class='line'>    <span class="s">&#39;original_img_1&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="s">&#39;original_img_2&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="s">&#39;original_img_3&#39;</span><span class="p">,</span>
-</span><span class='line'>    <span class="s">&#39;original_img_4&#39;</span><span class="p">,</span>
-</span><span class='line'><span class="p">]</span>
-</span><span class='line'>
-</span><span class='line'><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">IMGS</span><span class="p">:</span>
-</span><span class='line'>    <span class="n">wsize</span> <span class="o">=</span> <span class="mi">300</span>
-</span><span class='line'>    <span class="n">hsize</span> <span class="o">=</span> <span class="mi">200</span>
-</span><span class='line'>    <span class="n">img</span> <span class="o">=</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">open</span><span class="p">(</span><span class="s">&#39;/path/to/{}.png&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-</span><span class='line'>    <span class="n">img</span> <span class="o">=</span> <span class="n">img</span><span class="o">.</span><span class="n">resize</span><span class="p">((</span><span class="n">wsize</span><span class="p">,</span> <span class="n">hsize</span><span class="p">),</span> <span class="n">PIL</span><span class="o">.</span><span class="n">Image</span><span class="o">.</span><span class="n">ANTIALIAS</span><span class="p">)</span>
-</span><span class='line'>    <span class="c"># na pasta /thumbs será gerada a imagem com mesmo </span>
-</span><span class='line'>    <span class="c"># nome que a imagem original.</span>
-</span><span class='line'>    <span class="n">img</span><span class="o">.</span><span class="n">save</span><span class="p">(</span><span class="s">&#39;/path/to/thumbs/{}.png&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">))</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>E é isso, se pensarmos em número de 20 imagens então acabamos de economizar um precioso tempo que seria gasto com um trabalho bem chato e repetitivo.</p>
-</div>
-  
-  
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/python/'>python</a></span>
+</footer>
 
 
     </article>
   
-  
+  	
+	
+	
+		
+		<h2>2013</h2>
+	
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/12/19/slides-introducao-a-testes-com-django/">[slides] Introdução a testes com Django</a></h1>
-    
-    
-      <p class="meta">
-        
+<h1><a href="/blog/2013/12/19/slides-introducao-a-testes-com-django/">[slides] Introdução a testes com Django</a></h1>
+<time datetime="2013-12-19T12:32:00-02:00" pubdate><span class='month'>Dec</span> <span class='day'>19</span> <span class='year'>2013</span></time>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-19T12:32:00-02:00" pubdate data-updated="true">Dec 19<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
-tinham essa cultura.</p>
-
-<p>Esses workshops podem ser pequenos cursos, longos ou mesmo palestras, geralmente onde a empresa toda participa.</p>
-
-<p>Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs dos dois frameworks, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
-o mundo Python.</p>
-
-<iframe src="//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-</div>
-  
-  
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/django/'>django</a>, <a class='category' href='/blog/categories/palestras/'>palestras</a></span>
+</footer>
 
 
     </article>
   
-  
+  	
+	
+	
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/">Migrando sua app Django da 1.4 para 1.5</a></h1>
-    
-    
-      <p class="meta">
-        
+<h1><a href="/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/">Migrando sua app Django da 1.4 para 1.5</a></h1>
+<time datetime="2013-12-18T12:35:00-02:00" pubdate><span class='month'>Dec</span> <span class='day'>18</span> <span class='year'>2013</span></time>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-12-18T12:35:00-02:00" pubdate data-updated="true">Dec 18<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
-Foi um pouco demorado, mas nada realmente que dure mais de um dia de trabalho. Primeiramente leia a <a href="https://docs.djangoproject.com/en/dev/releases/1.5/" title="release notes django 1.5">release notes</a>, não precisei ler nenhum outro
-artigo além desse para migrar minha aplicação.</p>
-
-<h4>Third apps</h4>
-
-<p>Módulos como o <code>simplejson</code> e <code>localflavor</code> foram removidos do Django e se tornaram apps independentes. A simplejson pode ser facilmente substituída pelo módulo <a href="http://docs.python.org/2.7/library/json.html#module-json" title="json">json</a> nativo da linguagem.</p>
-
-<p>Outros módulos também serão deprecados nas próximas releases, então para não ter tanto trabalho futuro sugiro dar uma lida na <a href="https://docs.djangoproject.com/en/dev/internals/deprecation/" title="roadmap">deprecation timeline</a> e já se preparar para eventuais mudanças.</p>
-
-<h4>New-style url</h4>
-
-<p>O padrão de urls nas templates mudou, use:</p>
-
-<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='html'><span class='line'>{% url &quot;app:my_view&quot; param1 %}
-</span></code></pre></td></tr></table></div></figure>
-
-
-<p>
-ao invés de:
-<code>{% url app:my_view param1 %}</code>.</p>
-
-<p>Esse &ldquo;novo&rdquo; padrão é válido desde a 1.3, desde que esteja usando a <code>load url from future</code> em seu template.</p>
-
-<h4>Deprecate warnings</h4>
-
-<p>É normal a primeiro momento rodar um runserver e se deparar com vários warnings no terminal, alguns warnings de deprecations que você solucionou os mantenedores de suas libs terceiras também terão de solucionar. Recomendo fortemente visitar
-as docs de suas principais dependências e verificar o changelog, provavelmente algum homem de bem criou uma versão especifica compatível com a versão de Django que você usa.</p>
-
-<p>Tendo esse cuidado acredito que esses warnings sumirão e você terá menos trabalho para um futuro upgrade em sua aplicação.</p>
-
-<h4>Django 1.6</h4>
-
-<p>Nesse fim de ano saiu a primeira release estável da 1.6, talvez vocês se perguntem porquê eu não fiz o upgrade da 1.4.x diretamente para 1.6.0 e as respostas são simples.</p>
-
-<p>Baby-steps, seria traumático demais fazer essa atualização sem resolver as coisas novas da 1.5 primeiro e um outro motivo, dependências. Muitas libs ainda estão fazendo esse trabalho
-de upgrade, onde grande parte ainda tem o Django 1.5 como base de sua release estável. Mas nada problemático, logo logo também farei esse trabalho e posto aqui novamente. ;)</p>
-</div>
-  
-  
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/django/'>django</a></span>
+</footer>
 
 
     </article>
   
-  
+  	
+	
+	
     <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/">Meu ambiente de trabalho em 7 itens</a></h1>
-    
-    
-      <p class="meta">
-        
+<h1><a href="/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/">Meu ambiente de trabalho em 7 itens</a></h1>
+<time datetime="2013-11-27T18:39:00-02:00" pubdate><span class='month'>Nov</span> <span class='day'>27</span> <span class='year'>2013</span></time>
 
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2013-11-27T18:39:00-02:00" pubdate data-updated="true">Nov 27<span>th</span>, 2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
-
-<h4>1 &ndash; Unix</h4>
-
-<p>Na maior parte do tempo fico no OSX, o fato curioso é que utilizo Linux no computador do escritório e
-por incrível que pareça não me incomodo tanto entre variar entre os dois OS. Uma dica para quem quer usar alguma distro linux leve e que não fuja tanto do visual do OSX são as distros PearOS e o Elementary.</p>
-
-<h4>2 &ndash; Bash</h4>
-
-<p>Apesar de utilizar o ZSH no escritório considero bash ainda o <a href="https://github.com/lerrua/dotfiles" title="dotfiles">meu default</a>, me sinto mais confortável com ele.</p>
-
-<h4>3 &ndash; Vim</h4>
-
-<p>O meu fiel companheiro desde 2010, já tentei todos os editores e IDEs que imaginar mas Vim é algo único. Atualmente <a href="https://github.com/lerrua/vimfiles" title="Vimfiles">meu vimfiles</a> é focado para devs Python, mas atende também quem codifica em outras linguagens.</p>
-
-<h4>4 &ndash; Git</h4>
-
-<p>SVN e Windows stuffs, coisas que não uso há um bom tempo&hellip;</p>
-
-<h4>5 &ndash; Python</h4>
-
-<p>Pra quem me conhece sabe que Ruby foi a base da minha criação como programador, mas nos últimos dois anos Python vem fazendo fortemente parte da minha vida.</p>
-
-<h4>6 &ndash; Chrome</h4>
-
-<p>Inspect > Firebug, simples assim.</p>
-
-<h4>7 &ndash; IRC, skype</h4>
-
-<p>Skype ainda é uma das poucas coisas que deixo 24hs conectado principalmente por conta de algumas reuniões, enquanto IRC é um hábito que ainda tento retomar.</p>
-</div>
-  
-  
+<footer>
+  <span class="categories">posted in <a class='category' href='/blog/categories/workspace/'>workspace</a></span>
+</footer>
 
 
     </article>
@@ -413,7 +184,7 @@ por incrível que pareça não me incomodo tanto entre variar entre os dois OS. 
     </div>
   </div>
   <footer role="contentinfo"><p>
-  Copyright &copy; 2014 - Igor P. Leroy -
+  Copyright &copy; 2015 - Igor P. Leroy -
   <span class="credit">Powered by <a href="http://octopress.org">Octopress</a> | Themed with <a href="https://github.com/lucaslew/whitespace">Whitespace</a></span>
 </p>
 

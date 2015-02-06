@@ -32,6 +32,10 @@ article h2.title a:hover {
     color: #258fb8;
 }
 
+.blog-index article {
+	padding-top: 0em; !important
+}
+
 .post h2.list_post {
     font-size: 1.2em;
     margin-bottom: 5px;
