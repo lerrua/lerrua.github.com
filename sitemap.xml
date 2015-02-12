@@ -1,57 +1,57 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
-        <loc>http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/</loc>
+        <loc>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
     <url>
         <loc>
-            http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/
+            http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/
         </loc>
         <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/</loc>
+        <loc>http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django/</loc>
         <lastmod>2015-02-09T17:18:28-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python/</loc>
+        <loc>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/</loc>
         <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/about/</loc>
+        <loc>http://lerrua.com/about/</loc>
         <lastmod>2015-02-09T11:39:26-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/archives/</loc>
+        <loc>http://lerrua.com/archives/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/blog/archives/</loc>
+        <loc>http://lerrua.com/blog/archives/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/blog/categories/</loc>
+        <loc>http://lerrua.com/blog/categories/</loc>
         <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/blog/</loc>
+        <loc>http://lerrua.com/blog/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/contact/</loc>
+        <loc>http://lerrua.com/contact/</loc>
         <lastmod>2015-02-11T19:38:45-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/</loc>
+        <loc>http://lerrua.com/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/robots.txt</loc>
+        <loc>http://lerrua.com/robots.txt</loc>
         <lastmod>2014-07-08T11:19:08-03:00</lastmod>
     </url>
     <url>
-        <loc>http://lerrua.github.io/talks/</loc>
+        <loc>http://lerrua.com/talks/</loc>
         <lastmod>2015-02-12T16:34:32-02:00</lastmod>
     </url>
 </urlset>

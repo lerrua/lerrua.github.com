@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: python | /lerrua]]></title>
-  <link href="http://lerrua.github.io/blog/categories/python/atom.xml" rel="self"/>
-  <link href="http://lerrua.github.io/"/>
-  <updated>2015-02-12T16:34:33-02:00</updated>
-  <id>http://lerrua.github.io/</id>
+  <link href="http://lerrua.com/blog/categories/python/atom.xml" rel="self"/>
+  <link href="http://lerrua.com/"/>
+  <updated>2015-02-12T16:46:07-02:00</updated>
+  <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
     <email><![CDATA[ip.leroy@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Redimensionando imagens com Python]]></title>
-    <link href="http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python/"/>
+    <link href="http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/"/>
     <updated>2014-07-02T21:18:00-03:00</updated>
-    <id>http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python</id>
+    <id>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python</id>
     <content type="html"><![CDATA[<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
 quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
 

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: django | /lerrua]]></title>
-  <link href="http://lerrua.github.io/blog/categories/django/atom.xml" rel="self"/>
-  <link href="http://lerrua.github.io/"/>
-  <updated>2015-02-12T16:34:33-02:00</updated>
-  <id>http://lerrua.github.io/</id>
+  <link href="http://lerrua.com/blog/categories/django/atom.xml" rel="self"/>
+  <link href="http://lerrua.com/"/>
+  <updated>2015-02-12T16:46:07-02:00</updated>
+  <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
     <email><![CDATA[ip.leroy@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[[slides] Introdução a testes com Django]]></title>
-    <link href="http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
+    <link href="http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
     <updated>2013-12-19T12:32:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
+    <id>http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
     <content type="html"><![CDATA[<p>Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
 tinham essa cultura.</p>
 
@@ -26,16 +26,16 @@ tinham essa cultura.</p>
 <p>Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs dos dois frameworks, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
 o mundo Python.</p>
 
-<iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="http://lerrua.com//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrando sua app Django da 1.4 para 1.5]]></title>
-    <link href="http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/"/>
+    <link href="http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/"/>
     <updated>2013-12-18T12:35:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5</id>
+    <id>http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5</id>
     <content type="html"><![CDATA[<p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
 Foi um pouco demorado, mas nada realmente que dure mais de um dia de trabalho. Primeiramente leia a <a href="https://docs.djangoproject.com/en/dev/releases/1.5/" title="release notes django 1.5">release notes</a>, não precisei ler nenhum outro
 artigo além desse para migrar minha aplicação.</p>

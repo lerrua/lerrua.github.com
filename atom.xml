@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[/lerrua]]></title>
-  <link href="http://lerrua.github.io/atom.xml" rel="self"/>
-  <link href="http://lerrua.github.io/"/>
-  <updated>2015-02-12T16:34:33-02:00</updated>
-  <id>http://lerrua.github.io/</id>
+  <link href="http://lerrua.com/atom.xml" rel="self"/>
+  <link href="http://lerrua.com/"/>
+  <updated>2015-02-12T16:46:07-02:00</updated>
+  <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
     <email><![CDATA[ip.leroy@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Redimensionando imagens com Python]]></title>
-    <link href="http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python/"/>
+    <link href="http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/"/>
     <updated>2014-07-02T21:18:00-03:00</updated>
-    <id>http://lerrua.github.io/blog/2014/07/02/redimensionando-imagens-com-python</id>
+    <id>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python</id>
     <content type="html"><![CDATA[<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
 quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
 
@@ -101,9 +101,9 @@ quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determi
   
   <entry>
     <title type="html"><![CDATA[[slides] Introdução a testes com Django]]></title>
-    <link href="http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
+    <link href="http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
     <updated>2013-12-19T12:32:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
+    <id>http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
     <content type="html"><![CDATA[<p>Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
 tinham essa cultura.</p>
 
@@ -112,16 +112,16 @@ tinham essa cultura.</p>
 <p>Mas bem, dessa vez falei um pouco sobre testes com Django, como vim do Ruby on Rails tentei um pouco comparar libs dos dois frameworks, mostrando onde isso funciona no mundo Ruby e qual ferramenta semelhante existe para
 o mundo Python.</p>
 
-<iframe src="http://lerrua.github.io//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<iframe src="http://lerrua.com//slid.es/igorleroy/introducao-a-testes-com-django/embed?style=light" style="margin: 0 auto; display: block;" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Migrando sua app Django da 1.4 para 1.5]]></title>
-    <link href="http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/"/>
+    <link href="http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/"/>
     <updated>2013-12-18T12:35:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5</id>
+    <id>http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5</id>
     <content type="html"><![CDATA[<p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
 Foi um pouco demorado, mas nada realmente que dure mais de um dia de trabalho. Primeiramente leia a <a href="https://docs.djangoproject.com/en/dev/releases/1.5/" title="release notes django 1.5">release notes</a>, não precisei ler nenhum outro
 artigo além desse para migrar minha aplicação.</p>
@@ -165,9 +165,9 @@ de upgrade, onde grande parte ainda tem o Django 1.5 como base de sua release es
   
   <entry>
     <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens]]></title>
-    <link href="http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
+    <link href="http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
     <updated>2013-11-27T18:39:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
+    <id>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
     <content type="html"><![CDATA[<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
 
 <h4>1 &ndash; Unix</h4>

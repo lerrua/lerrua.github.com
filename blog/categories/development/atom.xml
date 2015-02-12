@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: development | /lerrua]]></title>
-  <link href="http://lerrua.github.io/blog/categories/development/atom.xml" rel="self"/>
-  <link href="http://lerrua.github.io/"/>
-  <updated>2015-02-12T16:34:33-02:00</updated>
-  <id>http://lerrua.github.io/</id>
+  <link href="http://lerrua.com/blog/categories/development/atom.xml" rel="self"/>
+  <link href="http://lerrua.com/"/>
+  <updated>2015-02-12T16:46:07-02:00</updated>
+  <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
     <email><![CDATA[ip.leroy@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens]]></title>
-    <link href="http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
+    <link href="http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
     <updated>2013-11-27T18:39:00-02:00</updated>
-    <id>http://lerrua.github.io/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
+    <id>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
     <content type="html"><![CDATA[<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
 
 <h4>1 &ndash; Unix</h4>
