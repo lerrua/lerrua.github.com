@@ -2,56 +2,60 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>
             http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/
         </loc>
-        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django/</loc>
-        <lastmod>2015-02-09T17:18:28-02:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/</loc>
-        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
+    </url>
+    <url>
+        <loc>http://lerrua.com/blog/2015/02/27/por-que-escolher-python/</loc>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/about/</loc>
-        <lastmod>2015-02-09T11:39:26-02:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/archives/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/blog/archives/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/blog/categories/</loc>
-        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/blog/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/contact/</loc>
-        <lastmod>2015-02-11T19:38:45-02:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/robots.txt</loc>
-        <lastmod>2014-07-08T11:19:08-03:00</lastmod>
+        <lastmod>2015-02-27T10:40:19-03:00</lastmod>
     </url>
     <url>
         <loc>http://lerrua.com/talks/</loc>
-        <lastmod>2015-02-12T16:34:32-02:00</lastmod>
+        <lastmod>2015-02-27T10:42:20-03:00</lastmod>
     </url>
 </urlset>
