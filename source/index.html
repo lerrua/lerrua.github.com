@@ -1,34 +1,77 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Igor P. Leroy">
+  	<link href="/favicon.png" rel="icon">
+  	<link rel="canonical" href="http://lerrua.com">
+    <title>/lerrua</title>
 
-<div id="blog-archives" class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  	{% assign content = post.content %}
-	{% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
-	{% unless year == this_year %}
-		{% assign year = this_year %}
-		<h2>{{ year }}</h2>
-	{% endunless %}
-    <article>
-      {% include archive_post.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page_path}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page_path}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+    <!-- Bootstrap core CSS -->
+    <link href="assets/home/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="assets/home/css/main.css" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-46071003-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+	</script>
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+	  <div id="ww">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-lg-8 col-lg-offset-2 centered">
+					  <img src="assets/home/img/profile.png" alt="Igor Leroy" height="170" width="170">
+					  <h1>Hi, I'm Igor Leroy!</h1>
+					  <p> I'm a brazilian Software
+						  Developer who <i class="fa fa-heart" style="color: red"></i> Python and Open Source culture.</p>
+					  <p>Please feel free to read my <a href="http://www.lerrua.com/blog">blog</a> and to contact me at ip.leroy [at] gmail.</p>
+				  </div>
+			  </div>
+
+			  <div class="row">
+				  <div class="col-lg-8 col-lg-offset-2 centered">
+					  <div class="col-md-12">
+						  <ul class="social-network social-circle">
+							  <li><a href="http://www.lerrua.com/blog" class="icoRss" title="Blog"><i
+										  class="fa fa-terminal"></i></a></li>
+							  <li><a href="https://github.com/lerrua" class="icoFacebook"
+									  title="Github"><i class="fa fa-github"></i></a></li>
+							  <li><a href="http://twitter.com/lerrua/" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+							  <li><a href="http://www.slideshare.net/lerrua" class="icoGoogle"
+									  title="Slideshare"><i class="fa
+										  fa-slideshare"></i></a></li>
+							  <li><a href="http://br.linkedin.com/in/igorleroy" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							  </ul
+					  </div>
+				  </div>
+			  </div>
+		  </div>
+	  </div>
+
+    <script src="assets/home/js/bootstrap.min.js"></script>
+  </body>
+</html>
