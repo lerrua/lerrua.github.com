@@ -3,7 +3,7 @@ layout: post
 title: "Por que escolher Python?"
 date: 2015-02-27 10:35
 comments: true
-categories: python, talks, video
+categories: [python, talks, video]
 ---
 
 Olá pessoas! 
