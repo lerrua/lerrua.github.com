@@ -1,8 +1,9 @@
 ---
 layout: page
-title: "Sobre o autor"
-date: 2013-11-27 18:34
-comments: true
-sharing: true
-footer: true
+title: "about"
+date: 2012-07-24 03:16
+comments: false
+sharing: false
+footer: false
 ---
+Sample!

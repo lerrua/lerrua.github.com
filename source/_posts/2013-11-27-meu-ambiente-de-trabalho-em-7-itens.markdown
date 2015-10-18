@@ -5,6 +5,7 @@ date: 2013-11-27 18:39
 comments: true
 categories: development
 ---
+<!--more-->
 
 
 Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.

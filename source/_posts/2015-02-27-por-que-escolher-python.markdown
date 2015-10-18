@@ -5,6 +5,7 @@ date: 2015-02-27 10:35
 comments: true
 categories: [python, talks, video]
 ---
+<!--more-->
 
 Olá pessoas! 
 Nesse último sábado rolou o sétimo encontro da comunidade Python de Minas Gerais. Não ficou sabendo? Veja [aqui](www.meetup.com/Belo-Horizonte-Python-User-Group/events/219926204/) como foi. 

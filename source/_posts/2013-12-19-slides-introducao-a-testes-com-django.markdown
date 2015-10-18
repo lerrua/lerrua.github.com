@@ -5,6 +5,7 @@ date: 2013-12-19 12:32
 comments: true
 categories: [django]
 ---
+<!--more-->
 
 Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
 tinham essa cultura.

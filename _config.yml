@@ -7,7 +7,7 @@ title: /lerrua
 subtitle: Hacking on coffee waves
 author: Igor P. Leroy
 simple_search: http://google.com/search
-description:
+description: Hi, I'm Igor Leroy! I'm a brazilian Software Developer who loves Python and Open Source culture. Please feel free to read my blog and to contact me at twitter or check out my github.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
@@ -73,7 +73,7 @@ github_skip_forks: true
 twitter_user: lerrua
 twitter_tweet_button: true
 
-email: ip.leroy@gmail.com
+email: 
 
 # Google +1
 google_plus_one: true

@@ -5,6 +5,7 @@ date: 2013-12-18 12:35
 comments: true
 categories: django
 ---
+<!--more-->
 
 
 Buenas! Recentemente atualizei uma aplicação "gorda" para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.

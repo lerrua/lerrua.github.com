@@ -5,6 +5,7 @@ date: 2014-07-02 21:18
 comments: true
 categories: python
 ---
+<!--more-->
 
 Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para 
 quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.
