@@ -17,7 +17,11 @@ function addSidebarToggler() {
     $('#content').append('<span class="toggle-sidebar"></span>');
     $('.toggle-sidebar').bind('click', function(e) {
       e.preventDefault();
-      $('body').toggleClass('collapse-sidebar');
+      if ($('body').hasClass('collapse-sidebar')) {
+        $('body').removeClass('collapse-sidebar');
+      } else {
+        $('body').addClass('collapse-sidebar');
+      }
     });
   }
   var sections = $('aside.sidebar > section');
@@ -94,6 +98,15 @@ function wrapFlashVideos() {
     }
   });
   $('iframe[src*=vimeo],iframe[src*=youtube]').wrap('<div class="flash-video">')
+}
+
+function renderDeliciousLinks(items) {
+  var output = "<ul>";
+  for (var i=0,l=items.length; i<l; i++) {
+    output += '<li><a href="' + items[i].u + '" title="Tags: ' + (items[i].t == "" ? "" : items[i].t.join(', ')) + '">' + items[i].d + '</a></li>';
+  }
+  output += "</ul>";
+  $('#delicious').html(output);
 }
 
 $('document').ready(function() {

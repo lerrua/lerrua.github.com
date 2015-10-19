@@ -4,11 +4,11 @@
   <title><![CDATA[Category: video | /lerrua]]></title>
   <link href="http://lerrua.com/blog/categories/video/atom.xml" rel="self"/>
   <link href="http://lerrua.com/"/>
-  <updated>2015-05-10T01:01:36-03:00</updated>
+  <updated>2015-10-18T23:18:23-02:00</updated>
   <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
-    <email><![CDATA[ip.leroy@gmail.com]]></email>
+    
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -18,7 +18,10 @@
     <link href="http://lerrua.com/blog/2015/02/27/por-que-escolher-python/"/>
     <updated>2015-02-27T10:35:00-03:00</updated>
     <id>http://lerrua.com/blog/2015/02/27/por-que-escolher-python</id>
-    <content type="html"><![CDATA[<p>Olá pessoas!
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Olá pessoas!
 Nesse último sábado rolou o sétimo encontro da comunidade Python de Minas Gerais. Não ficou sabendo? Veja <a href="www.meetup.com/Belo-Horizonte-Python-User-Group/events/219926204/">aqui</a> como foi.</p>
 
 <p>Acompanhe o <a href="http://www.meetup.com//Belo-Horizonte-Python-User-Group/">meetup</a> da galera e também siga o <a href="https://twitter.com/PythonMG">@PythonMG</a> no twitter, a galera de BH está fazendo um excelente trabalho.</p>

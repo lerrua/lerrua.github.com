@@ -4,21 +4,57 @@
   <title><![CDATA[/lerrua]]></title>
   <link href="http://lerrua.com/atom.xml" rel="self"/>
   <link href="http://lerrua.com/"/>
-  <updated>2015-05-10T01:01:36-03:00</updated>
+  <updated>2015-10-18T23:18:23-02:00</updated>
   <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
-    <email><![CDATA[ip.leroy@gmail.com]]></email>
+    
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Existe Trabalho Remoto no Brasil?]]></title>
+    <link href="http://lerrua.com/blog/2015/10/18/existe-trabalho-remoto-no-brasil/"/>
+    <updated>2015-10-18T22:04:00-02:00</updated>
+    <id>http://lerrua.com/blog/2015/10/18/existe-trabalho-remoto-no-brasil</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Essa semana aconteceu um fato bastante inusitado, enquanto lavava as louças e ouvia um <a href="http://devnaestrada.com.br/2015/05/29/devcast-trabalho-remoto.html">cast</a> sobre Trabalho Remoto num podcast que havia acabado de encontrar. Escutei algumas citações como &ldquo;onde encontrar essas empresas que aceitam home office?&rdquo; e &ldquo;pouco se fala de trabalho remoto no Brasil&rdquo;. Naquele momento me senti vivendo em um universo paralelo, pois estou na minha terceira experiência com uma empresa remota e grande porcentagem dos meus amigos são também programadores em times remotos.</p>
+
+<p>No final daquela atividade lá na cozinha, fui direto ao titio Google pra ver se os meninos do podcast estavam certos, estavam. Encontrei poucas referências e decidi logo de cara montar uma lista de empresas que adotam o home office, utilizei o Github pra isso. Eu queria entender se realmente eu vivia numa bolha ou se teria um feedback positivo sobre aquilo e o resultado foi incrível.</p>
+
+<p>Subi a lista no github, somente com empresas que eu já tinha algum contato. Não sou um cara que tem muitos seguidores no Twitter, mas fiz um tweet pra divulgar.
+<img src="http://lerrua.com/images/posts/twitter_trabalho_remoto.png" title="&#34;tweet about home office&#34;" alt="&#34;tweet about home office&#34;"></p>
+
+<p>Em exatas <strong>24 horas</strong> eu já havia superado 114 RTs e 72 stars, um número espantoso para a minha atual presença na internet e não parou por aí.
+Compartilhei o mesmo link na página de facebook da Python Brasil e o resultado nas mesmas 24 horas também me espantou, aproximadamente 200 likes.</p>
+
+<p><img src="http://lerrua.com/images/posts/facebook_likes.png" title="&#34;facebook likes about home office&#34;" alt="&#34;facebook likes about home office&#34;"></p>
+
+<p>Muitos feedbacks, amigos me informando que receberam currículos durante aquela semana, muitos comentários e muitas mentions diretas pra mim.</p>
+
+<p>Impressionamente como algo tão simples fez um sucesso tão grande em poucas horas, sucesso o suficiente para o repositório criado ficar dois dias no Trending do Github, onde se formou uma pequena comunidade ali.</p>
+
+<p>Naquelas mesmas 24 horas, foram mais de 230 stars e 31 Pull Requests aceitos, totalizando 30 empresas brasileiras cadastradas.
+<img src="http://lerrua.com/images/posts/stars_details.png" width="670"></p>
+
+<p>Hoje o projeto continua evoluindo, ideías que surgem e novos contatos chegam até mim. Mas esse não é o ponto, a grande conclusão é que sim, existe um interesse absurdo sobre trabalho remoto no Brasil, pessoas querem saber quem são essas empresas e pessoas gostam de divulgar que suas empresas adotam ou querem adotar a possibilidade de um home office.</p>
+
+<p>Trabalho remoto não é uma utopia, existe e é parte do meu mundo há pelo menos 3 anos.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Por que escolher Python?]]></title>
     <link href="http://lerrua.com/blog/2015/02/27/por-que-escolher-python/"/>
     <updated>2015-02-27T10:35:00-03:00</updated>
     <id>http://lerrua.com/blog/2015/02/27/por-que-escolher-python</id>
-    <content type="html"><![CDATA[<p>Olá pessoas!
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Olá pessoas!
 Nesse último sábado rolou o sétimo encontro da comunidade Python de Minas Gerais. Não ficou sabendo? Veja <a href="www.meetup.com/Belo-Horizonte-Python-User-Group/events/219926204/">aqui</a> como foi.</p>
 
 <p>Acompanhe o <a href="http://www.meetup.com//Belo-Horizonte-Python-User-Group/">meetup</a> da galera e também siga o <a href="https://twitter.com/PythonMG">@PythonMG</a> no twitter, a galera de BH está fazendo um excelente trabalho.</p>
@@ -41,7 +77,10 @@ Palestra polêmica, quase igual mamilos. Brincadeiras à parte com a galera do R
     <link href="http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/"/>
     <updated>2014-07-02T21:18:00-03:00</updated>
     <id>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python</id>
-    <content type="html"><![CDATA[<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
 quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
 
 <p>Perda de tempo maior ainda seria se fossem 20 ou 30 imagens, imaginem? Pois é.</p>
@@ -127,7 +166,10 @@ quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determi
     <link href="http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django/"/>
     <updated>2013-12-19T12:32:00-02:00</updated>
     <id>http://lerrua.com/blog/2013/12/19/slides-introducao-a-testes-com-django</id>
-    <content type="html"><![CDATA[<p>Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Algumas empresas tem a cultura de ministrar workshops entre seus funcionários e com o objetivo maior de compartilhar conhecimento, nivelamento de equipes e entre outros motivos. Por uma grata sorte minha atual e última empresa
 tinham essa cultura.</p>
 
 <p>Esses workshops podem ser pequenos cursos, longos ou mesmo palestras, geralmente onde a empresa toda participa.</p>
@@ -145,7 +187,10 @@ o mundo Python.</p>
     <link href="http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5/"/>
     <updated>2013-12-18T12:35:00-02:00</updated>
     <id>http://lerrua.com/blog/2013/12/18/migrando-sua-app-django-da-1-dot-4-para-1-dot-5</id>
-    <content type="html"><![CDATA[<p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Buenas! Recentemente atualizei uma aplicação &ldquo;gorda&rdquo; para a versão 1.5.5 do Django e resolvi compartilhar essa experiência.
 Foi um pouco demorado, mas nada realmente que dure mais de um dia de trabalho. Primeiramente leia a <a href="https://docs.djangoproject.com/en/dev/releases/1.5/" title="release notes django 1.5">release notes</a>, não precisei ler nenhum outro
 artigo além desse para migrar minha aplicação.</p>
 
@@ -191,7 +236,10 @@ de upgrade, onde grande parte ainda tem o Django 1.5 como base de sua release es
     <link href="http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
     <updated>2013-11-27T18:39:00-02:00</updated>
     <id>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
-    <content type="html"><![CDATA[<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
 
 <h4>1 &ndash; Unix</h4>
 
