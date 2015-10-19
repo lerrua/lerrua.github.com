@@ -10,7 +10,7 @@ categories: development, carreer
 Essa semana aconteceu um fato bastante inusitado, enquanto lavava as louças e ouvia um [cast](http://devnaestrada.com.br/2015/05/29/devcast-trabalho-remoto.html) sobre Trabalho Remoto num podcast que havia acabado de encontrar. Escutei algumas citações como "onde encontrar essas empresas que aceitam home office?" e "pouco se fala de trabalho remoto no Brasil". Naquele momento me senti vivendo em um universo paralelo, pois estou na minha terceira experiência com uma empresa remota e grande porcentagem dos meus amigos são também programadores em times remotos.
 
 
-No final daquela atividade lá na cozinha, fui direto ao titio Google pra ver se os meninos do podcast estavam certos, estavam. Encontrei poucas referências e decidi logo de cara montar uma lista de empresas que adotam o home office, utilizei o Github pra isso. Eu queria entender se realmente eu vivia numa bolha ou se teria um feedback positivo sobre aquilo e o resultado foi incrível.
+No final daquela atividade lá na cozinha, fui direto ao titio Google pra ver se os meninos do podcast estavam certos, estavam. Encontrei poucas referências e decidi logo de cara montar uma [lista de empresas que adotam o home office](https://github.com/lerrua/remote-jobs-brazil), utilizei o Github pra isso. Eu queria entender se realmente eu vivia numa bolha ou se teria um feedback positivo sobre aquilo e o resultado foi incrível.
 
 
 Subi a lista no github, somente com empresas que eu já tinha algum contato. Não sou um cara que tem muitos seguidores no Twitter, mas fiz um tweet pra divulgar.
