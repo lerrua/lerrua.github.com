@@ -3,7 +3,7 @@ layout: post
 title: "Migrando sua app Django da 1.4 para 1.5"
 date: 2013-12-18 12:35
 comments: true
-categories: django
+categories: [django]
 ---
 <!--more-->
 

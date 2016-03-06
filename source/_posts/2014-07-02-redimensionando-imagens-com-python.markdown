@@ -3,7 +3,7 @@ layout: post
 title: "Redimensionando imagens com Python"
 date: 2014-07-02 21:18
 comments: true
-categories: python
+categories: [python]
 ---
 <!--more-->
 
