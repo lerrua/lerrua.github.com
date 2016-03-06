@@ -107,3 +107,6 @@ google_analytics_tracking_id: 'UA-46071003-1'
 
 # Facebook Like
 facebook_like: true
+
+# gravatar hash
+gravatar_hash: 60a1c8c36ec6645b0ea0c469cab2fcb9
