@@ -13,7 +13,7 @@ Essa semana aconteceu um fato bastante inusitado, enquanto lavava as louças e o
 No final daquela atividade lá na cozinha, fui direto ao titio Google pra ver se os meninos do podcast estavam certos, estavam. Encontrei poucas referências e decidi logo de cara montar uma [lista de empresas que adotam o home office](https://github.com/lerrua/remote-jobs-brazil), utilizei o Github pra isso. Eu queria entender se realmente eu vivia numa bolha ou se teria um feedback positivo sobre aquilo e o resultado foi incrível.
 
 
-Subi a lista no github, somente com empresas que eu já tinha algum contato. Não sou um cara que tem muitos seguidores no Twitter, mas fiz um tweet pra divulgar.
+Subi a lista no github somente com empresas que eu já tinha algum contato. Não sou um cara que tem muitos seguidores no Twitter, mas fiz um tweet pra divulgar.
 {% img /images/posts/twitter_trabalho_remoto.png "tweet about home office" %}
 
 Em exatas **24 horas** eu já havia superado 114 RTs e 72 stars, um número espantoso para a minha atual presença na internet e não parou por aí.
