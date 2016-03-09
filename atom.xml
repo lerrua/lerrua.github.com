@@ -4,7 +4,7 @@
   <title><![CDATA[/lerrua]]></title>
   <link href="http://lerrua.com/atom.xml" rel="self"/>
   <link href="http://lerrua.com/"/>
-  <updated>2015-10-19T00:49:26-02:00</updated>
+  <updated>2016-03-08T22:01:50-03:00</updated>
   <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -12,6 +12,109 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Primeiros passos com Data Science]]></title>
+    <link href="http://lerrua.com/blog/2016/03/08/primeiros-passos-com-data-science/"/>
+    <updated>2016-03-08T22:01:00-03:00</updated>
+    <id>http://lerrua.com/blog/2016/03/08/primeiros-passos-com-data-science</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Data Science ou Ciência de Dados vem ganhando muita força de mercado nos últimos anos, um mercado até então acadêmico que agora chama atenção de grandes empresas e startups. Quem aqui não tem um conhecido no Linkedin que de um Software Engineer ou Developer se tornou um Data Analyst ou Data Scientist? É uma nova onda de profissionais com experiência em linguagens de programação como Python, R, Scala, Java juntamente com a experiência ou formação acadêmica em áreas da Matemática, como estatística.</p>
+
+<p>Assistindo palestras em eventos da comunidade Python e motivado por bons amigos que já trabalham na área, resolvi investir no tema e em Outubro do ano passado iniciei alguns cursos por conta própria.</p>
+
+<p>O primeiro curso que fiz foi o <em>Introdução a Big Data</em> do Coursera, oferecido pela universidade da California, San Diego. Minha experiência foi extremamente positiva, o que me motivou a criar uma espécie de roteiro para eu seguir nos próximos meses.</p>
+
+<p>Esse artigo é a exposição dessa minha grade de estudos, que pode ser um guia para pessoas interessadas a investir nesse novo universo de informação. Mas se você é uma daquelas pessoas que nunca ouviram falar sobre Data Science ou Machine Learning, recomendo muito a leitura dos artigos <a href="https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471#.zcy0625w8">Machine Learning is fun</a> e <a href="http://www.analyticsvidhya.com/blog/2016/01/complete-tutorial-learn-data-science-python-scratch-2">Learn Data Science with Python from Scratch</a>.</p>
+
+<p>Vamos em frente, todos os materiais listados aqui são em inglês, legendados e nada assustador para quem não é fluente, com um pequeno esforço você consegue prosseguir. Vale frizar que 100% dos cursos citados são <strong>gratis</strong>!</p>
+
+<h3>Cursos introdutórios</h3>
+
+<p>Para os iniciantes a Udacity possui um grande acervo de material gratuito e de excelente qualidade.
+Esses cursos tem uma média de duração de 3 semanas, recomendo fazer alguns em paralelo. Alguns deles são bem pequenos que podem ser feitos em um único fim de semana.</p>
+
+<ul>
+<li><p>Intro to Data Analysis &ndash; <a href="https://www.udacity.com/courses/ud170">https://www.udacity.com/courses/ud170</a></p></li>
+<li><p>Intro to Data Science &ndash; <a href="https://www.udacity.com/courses/ud359">https://www.udacity.com/courses/ud359</a></p></li>
+<li><p>Intro to Statistics &ndash; <a href="https://www.udacity.com/courses/st101">https://www.udacity.com/courses/st101</a></p></li>
+<li><p>Intro to Machine Learning &ndash; <a href="https://www.udacity.com/courses/ud120">https://www.udacity.com/courses/ud120</a></p></li>
+</ul>
+
+
+<p>Para complementar essa primeira lista temos a <a href="https://pt.khanacademy.org/math">sessão de Matemática</a> da KhanAcademy com lições de algebra, probabilidade e estatística e a Udemy com <a href="https://www.udemy.com/big-data-basics-hadoop-mapreduce-hive-pig-spark/">Big Data Basics: Hadoop, MapReduce, Hive, Pig &amp; Spark</a>.</p>
+
+<p>Parece muita coisa para um material para iniciantes, correto? Correto, mas isso é uma visão geral que a Ciência de Dados abrange, se gostou dos tópicos de estatística então poderá ter um foco maior em Machine Learning mas se a prefência for visualização e análise de dados então talvez os tópicos de Big Data serão mais interessantes.</p>
+
+<h3>Nível intermediário</h3>
+
+<p>Os cursos de nível intermediário e avançados estão no roteiro, mas não farei todos necessiariamente nessa ordem. Nesse caso a escolha é mais on demand, dependendo da necessidade de algum projeto ou em algum estudo específico.</p>
+
+<ul>
+<li><p>Intro to Hadoop and MapReduce &ndash; <a href="https://www.udacity.com/courses/ud617">https://www.udacity.com/courses/ud617</a></p></li>
+<li><p>Real-Time Analytics with Apache Storm &ndash;  <a href="https://www.udacity.com/courses/ud381">https://www.udacity.com/courses/ud381</a></p></li>
+<li><p>Data Visualization and D3.js &ndash; <a href="https://www.udacity.com/courses/ud507">https://www.udacity.com/courses/ud507</a></p></li>
+<li><p>A/B Testing &ndash; <a href="https://www.udacity.com/courses/ud257">https://www.udacity.com/courses/ud257</a></p></li>
+<li><p>Intro to Descriptive Statistics &ndash; <a href="https://www.udacity.com/courses/ud827">https://www.udacity.com/courses/ud827</a></p></li>
+<li><p>Intro to Inferential Statistics &ndash; <a href="https://www.udacity.com/courses/ud201">https://www.udacity.com/courses/ud201</a></p></li>
+<li><p>Linear Algebra Refresher Course &ndash; <a href="https://www.udacity.com/courses/ud953">https://www.udacity.com/courses/ud953</a></p></li>
+</ul>
+
+
+<h3>Nível avançado</h3>
+
+<ul>
+<li><p>Model Building and Validation &ndash; <a href="https://www.udacity.com/courses/ud919">https://www.udacity.com/courses/ud919</a></p></li>
+<li><p>Deepin Learning &ndash; <a href="https://www.udacity.com/course/deep-learning--ud730">https://www.udacity.com/course/deep-learning&#8211;ud730</a></p></li>
+</ul>
+
+
+<p>Essa foi a lista de todos os cursos gratuitos que me interessei, como vocês podem perceber a Udacity fornece uma boa estrutura para quem tem tempo para investir. Com uma boa disciplina e uma boa gerência pessoal em alguns meses podemos evoluir muito sem gastar 1 centavo do bolso.</p>
+
+<p>Mas eu também gostaria de adicionar alguns cursos pagos à esse roteiro, quero colocar os cursos de <a href="https://www.udemy.com/user/frankkane/">Frank Kane</a> nessa lista. São cursos relativamente baratos, com algumas semanas de duração e muito material prático com exemplos reais, são eles:</p>
+
+<ul>
+<li><p>Taming Big Data with Apache Spark &ndash; Hands On! &ndash; <a href="https://www.udemy.com/taming-big-data-with-apache-spark-hands-on/">https://www.udemy.com/taming-big-data-with-apache-spark-hands-on/</a></p></li>
+<li><p>Taming Big Data with MapReduce and Hadoop &ndash; Hands On! &ndash; <a href="https://www.udemy.com/taming-big-data-with-mapreduce-and-hadoop/">https://www.udemy.com/taming-big-data-with-mapreduce-and-hadoop/</a></p></li>
+<li><p>Data Science and Machine Learning with Python &ndash; Hands On! <a href="https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/">https://www.udemy.com/data-science-and-machine-learning-with-python-hands-on/</a></p></li>
+</ul>
+
+
+<p>Cada um desses cursos custam em média $25 então o custo-beneficio é enorme se comparado as especializações do Coursera ou a nanodegree da Udacity, vou explicar o que são eles logo abaixo.</p>
+
+<h3>Especializações</h3>
+
+<p>As especializações do Coursera são cursos mais longos, geralmente duram entre 4 a 6 meses e precisam de uma dedicação maior do que os cursos gratuitos que citei acima. Essas especializações são um pack de cursos agrupados, você pode adquirir individualmente sendo que o último curso é um trabalho de conclusão chamado de Capstone Project que precisa ser feito para que você possa obter a certificação.</p>
+
+<p>Geralmente a especialização completa possui pelo menos 5 cursos, algumas chegam a 10. Cada curso tem o valor médio de $60.</p>
+
+<p>O Introdução a Big Data que iniciei em Outubro é o primeiro curso da Big Data Specialization que irei concluir esse ano.</p>
+
+<ul>
+<li><p>Big Data Specialization, UC San Diego &ndash; <a href="https://www.coursera.org/specializations/big-data">https://www.coursera.org/specializations/big-data</a></p></li>
+<li><p>Machine Learning Specialization, University of Washington &ndash; <a href="https://www.coursera.org/specializations/machine-learning">https://www.coursera.org/specializations/machine-learning</a></p></li>
+</ul>
+
+
+<p>Essas duas especializações são algumas das minhas metas para 2016, lembrando que o Coursera oferece outras <a href="https://www.coursera.org/browse/data-science">especializações de Data Science</a>, a lista é enorme.</p>
+
+<p>As nanodegrees do Udacity não estão nos meus planos por agora, não pela qualidade mas por questão de tempo e custo. Nanodegrees são cursos enormes que variam entre 9 a 12 meses e tem o custo mensal de $200, algo pouco fora da realidade brasileira com a alta do Dólar nos dias de hoje. Mas fica a recomendação para quem quiser topar essa mini-faculdade, eles prometem emprego garantido e um professor disponível para você. A grade de cursos é muito boa, feito em parceria com empresas como Google e Facebook:</p>
+
+<ul>
+<li><p>Data Analyst Nanodegree &ndash; <a href="https://www.udacity.com/nanodegrees-new-s/nd002">https://www.udacity.com/nanodegrees-new-s/nd002</a></p></li>
+<li><p>Machine Learning Engineer Nanodegree &ndash; <a href="https://www.udacity.com/course/machine-learning-engineer-nanodegree--nd009">https://www.udacity.com/course/machine-learning-engineer-nanodegree&#8211;nd009</a></p></li>
+</ul>
+
+
+<h3>Conclusão</h3>
+
+<p>Este artigo, além de um guia para iniciantes em Data Science serve também como uma meta pessoal para minha carreira. Estudar grande parte do material divulgado e continuar com minhas especializações.</p>
+
+<p>O que acharam desse guia? Foi útil para você? Comentem abaixo e até a próxima!</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Existe Trabalho Remoto no Brasil?]]></title>

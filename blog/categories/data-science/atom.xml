@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: python | /lerrua]]></title>
-  <link href="http://lerrua.com/blog/categories/python/atom.xml" rel="self"/>
+  <title><![CDATA[Category: data-science | /lerrua]]></title>
+  <link href="http://lerrua.com/blog/categories/data-science/atom.xml" rel="self"/>
   <link href="http://lerrua.com/"/>
   <updated>2016-03-08T22:01:50-03:00</updated>
   <id>http://lerrua.com/</id>
@@ -113,104 +113,6 @@ Esses cursos tem uma média de duração de 3 semanas, recomendo fazer alguns em
 <p>Este artigo, além de um guia para iniciantes em Data Science serve também como uma meta pessoal para minha carreira. Estudar grande parte do material divulgado e continuar com minhas especializações.</p>
 
 <p>O que acharam desse guia? Foi útil para você? Comentem abaixo e até a próxima!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Por que escolher Python?]]></title>
-    <link href="http://lerrua.com/blog/2015/02/27/por-que-escolher-python/"/>
-    <updated>2015-02-27T10:35:00-03:00</updated>
-    <id>http://lerrua.com/blog/2015/02/27/por-que-escolher-python</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-<p>Olá pessoas!
-Nesse último sábado rolou o sétimo encontro da comunidade Python de Minas Gerais. Não ficou sabendo? Veja <a href="www.meetup.com/Belo-Horizonte-Python-User-Group/events/219926204/">aqui</a> como foi.</p>
-
-<p>Acompanhe o <a href="http://www.meetup.com//Belo-Horizonte-Python-User-Group/">meetup</a> da galera e também siga o <a href="https://twitter.com/PythonMG">@PythonMG</a> no twitter, a galera de BH está fazendo um excelente trabalho.</p>
-
-<p>Mas e aí, por que escolher Python?
-Palestra polêmica, quase igual mamilos. Brincadeiras à parte com a galera do Ruby on Rails (que eu os amo), segue aí o vídeo gravado de toda a apresentação.</p>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RTRrHLe6gQo" frameborder="0" allowfullscreen></iframe>
-
-
-<p>Calma, os slides estão aqui também.</p>
-
-<iframe src="http://lerrua.com//www.slideshare.net/slideshow/embed_code/44972463" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Redimensionando imagens com Python]]></title>
-    <link href="http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python/"/>
-    <updated>2014-07-02T21:18:00-03:00</updated>
-    <id>http://lerrua.com/blog/2014/07/02/redimensionando-imagens-com-python</id>
-    <content type="html"><![CDATA[<!--more-->
-
-
-<p>Nós programadores perdemos um tempo tentando mexer em programas de edição de imagem como Photoshop e Gimp para
-quebrar algum galho, tarefas bobas como redimensionar uma imagem para um determinado tamanho sem perder a qualidade por exemplo.</p>
-
-<p>Perda de tempo maior ainda seria se fossem 20 ou 30 imagens, imaginem? Pois é.</p>
-
-<p>Sorte que com python podemos automatizar esse trabalho com apenas algumas linhas de código.</p>
-
-<p><code>
-pip install Pillow
-</code></p>
-
-<p>Pillow é um fork mantido pela comunidade da PIL (Python Image Library), é com ela que vamos fazer essa brincadeira.</p>
-
-<p>```python
-import PIL</p>
-
-<h1>Queremos gerar uma imagem com tamanho 300x200</h1>
-
-<p>wsize = 300
-hsize = 200</p>
-
-<p>img = PIL.Image.open(&lsquo;/path/to/original_picture.png&rsquo;)</p>
-
-<h1>redimensionamos sem perder a qualidade</h1>
-
-<p>img = img.resize((wsize, hsize), PIL.Image.ANTIALIAS)
-img.save(&lsquo;/path/to/new_img.png&rsquo;)
-```</p>
-
-<p>Pronto! Sua <code>new_img.png</code> foi gerada na pasta que apontou acima.</p>
-
-<p>Quanto ao problema que citei no começo desse post, é uma solução bastante simples. Vamos apenas iterar esse código acima, mais ou menos assim:</p>
-
-<p>```python</p>
-
-<h1>Vamos supor que esses são os nomes das imagens</h1>
-
-<p>IMGS = [</p>
-
-<pre><code>'original_img_1',
-'original_img_2',
-'original_img_3',
-'original_img_4',
-</code></pre>
-
-<p>]</p>
-
-<p>for i in IMGS:</p>
-
-<pre><code>wsize = 300
-hsize = 200
-img = PIL.Image.open('/path/to/{}.png'.format(i))
-img = img.resize((wsize, hsize), PIL.Image.ANTIALIAS)
-# na pasta /thumbs será gerada a imagem com mesmo 
-# nome que a imagem original.
-img.save('/path/to/thumbs/{}.png'.format(i))
-</code></pre>
-
-<p>```</p>
-
-<p>E é isso, se pensarmos em número de 20 imagens então acabamos de economizar um precioso tempo que seria gasto com um trabalho bem chato e repetitivo.</p>
 ]]></content>
   </entry>
   

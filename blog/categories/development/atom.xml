@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: development, | /lerrua]]></title>
+  <title><![CDATA[Category: development | /lerrua]]></title>
   <link href="http://lerrua.com/blog/categories/development/atom.xml" rel="self"/>
   <link href="http://lerrua.com/"/>
-  <updated>2015-10-19T00:49:26-02:00</updated>
+  <updated>2016-03-08T22:01:50-03:00</updated>
   <id>http://lerrua.com/</id>
   <author>
     <name><![CDATA[Igor P. Leroy]]></name>
@@ -43,6 +43,47 @@ Compartilhei o mesmo link na página de facebook da Python Brasil e o resultado 
 <p>Hoje o projeto continua evoluindo, ideías que surgem e novos contatos chegam até mim. Mas esse não é o ponto, a grande conclusão é que sim, existe um interesse absurdo sobre trabalho remoto no Brasil, pessoas querem saber quem são essas empresas e pessoas gostam de divulgar que suas empresas adotam ou querem adotar a possibilidade de um home office.</p>
 
 <p>Trabalho remoto não é uma utopia, existe e é parte do meu mundo há pelo menos 3 anos.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Meu ambiente de trabalho em 7 itens]]></title>
+    <link href="http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens/"/>
+    <updated>2013-11-27T18:39:00-02:00</updated>
+    <id>http://lerrua.com/blog/2013/11/27/meu-ambiente-de-trabalho-em-7-itens</id>
+    <content type="html"><![CDATA[<!--more-->
+
+
+<p>Hello world! Após anos sem escrever nada resolvi tomar vergonha na cara e colocar em prática a idéia de escrever um blog pessoal. Pra seguir a modinha e dar um chute inicial nesse blog vou listar os 7 itens mais importantes do meu ambiente de trabalho.</p>
+
+<h4>1 &ndash; Unix</h4>
+
+<p>Na maior parte do tempo fico no OSX, o fato curioso é que utilizo Linux no computador do escritório e
+por incrível que pareça não me incomodo tanto entre variar entre os dois OS. Uma dica para quem quer usar alguma distro linux leve e que não fuja tanto do visual do OSX são as distros PearOS e o Elementary.</p>
+
+<h4>2 &ndash; Bash</h4>
+
+<p>Apesar de utilizar o ZSH no escritório considero bash ainda o <a href="https://github.com/lerrua/dotfiles" title="dotfiles">meu default</a>, me sinto mais confortável com ele.</p>
+
+<h4>3 &ndash; Vim</h4>
+
+<p>O meu fiel companheiro desde 2010, já tentei todos os editores e IDEs que imaginar mas Vim é algo único. Atualmente <a href="https://github.com/lerrua/vimfiles" title="Vimfiles">meu vimfiles</a> é focado para devs Python, mas atende também quem codifica em outras linguagens.</p>
+
+<h4>4 &ndash; Git</h4>
+
+<p>SVN e Windows stuffs, coisas que não uso há um bom tempo&hellip;</p>
+
+<h4>5 &ndash; Python</h4>
+
+<p>Pra quem me conhece sabe que Ruby foi a base da minha criação como programador, mas nos últimos dois anos Python vem fazendo fortemente parte da minha vida.</p>
+
+<h4>6 &ndash; Chrome</h4>
+
+<p>Inspect > Firebug, simples assim.</p>
+
+<h4>7 &ndash; IRC, skype</h4>
+
+<p>Skype ainda é uma das poucas coisas que deixo 24hs conectado principalmente por conta de algumas reuniões, enquanto IRC é um hábito que ainda tento retomar.</p>
 ]]></content>
   </entry>
   
