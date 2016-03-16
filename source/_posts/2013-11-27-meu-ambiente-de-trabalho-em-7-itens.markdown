@@ -3,6 +3,7 @@ layout: post
 title: "Meu ambiente de trabalho em 7 itens"
 date: 2013-11-27 18:39
 comments: true
+lang: pt_BR
 categories: [development]
 ---
 <!--more-->

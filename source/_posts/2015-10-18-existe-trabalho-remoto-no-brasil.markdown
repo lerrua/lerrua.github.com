@@ -3,6 +3,7 @@ layout: post
 title: "Existe Trabalho Remoto no Brasil?"
 date: 2015-10-18 22:04
 comments: true
+lang: pt_BR
 categories: [development, carreer]
 ---
 <!--more-->

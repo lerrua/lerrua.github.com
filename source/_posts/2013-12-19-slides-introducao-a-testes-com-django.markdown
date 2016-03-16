@@ -3,6 +3,7 @@ layout: post
 title: "[slides] Introdução a testes com Django"
 date: 2013-12-19 12:32
 comments: true
+lang: pt_BR
 categories: [django]
 ---
 <!--more-->
