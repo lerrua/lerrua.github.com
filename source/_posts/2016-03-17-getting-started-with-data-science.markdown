@@ -8,7 +8,7 @@ categories: [python, data-science, english]
 <!--more-->
 
 Data Science has gained a lot of market strength in recent years, a hitherto academic market now draws attention of large companies and startups.
-Who here does not know someone on Linkedin that was a software engineer or Developer and after now became a Data Analyst or Data Scientist?
+Who here does not know someone on Linkedin that was a Software Engineer or Developer and now became a Data Analyst or Data Scientist?
 It is a new wave of professionals with experience in programming languages like Python, R, Scala, Java along with experience or academic training in areas of mathematics, such as statistics.
 
 Attending talks in the Python community events and motivated by good friends who already work in the area, I decided to invest in this field and in October last year started some courses on my own.
@@ -85,7 +85,7 @@ The Introduction to Big Data that started in October is the first course of Big 
 
 * Machine Learning Specialization, University of Washington - https://www.coursera.org/specializations/machine-learning
 
-These two specializations are some of my goals for 2016, noting that the Coursera offers other [specializations of Data Science](https://www.coursera.org/browse/data-science), the list is huge.
+These two specializations are some of my goals for 2016, noting that the Coursera offers other [specializations about Data Science](https://www.coursera.org/browse/data-science), the list is huge.
 
 The nanodegrees of Udacity are not in my plans for now, not for quality but for reasons of time and cost. Nanodegrees are huge courses ranging from 9 to 12 months and has a monthly cost of $200, something a little out of my Brazilian reality with the high dollar today. But is recommended for those who want to run into this mini-college, they promise guaranteed job and a teacher available to you. The course's grade are very good, in partnership with companies like Google and Facebook:
 
