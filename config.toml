@@ -1,0 +1,57 @@
+baseURL = "https://www.lerrua.com/"
+languageCode = "en-us"
+title = "/lerruá"
+theme = "coder"
+paginate = 20
+disqusShortname = "lerrua"
+googleAnalytics = "UA-46071003-1"
+canonifyurls = true # Enable to turn relative URLs into absolute.
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+[permalinks]
+    posts = "/blog/:year/:month/:day/:title/"
+
+[params] # theme parameters
+    author = "Leroy"
+    info = "backend software developer"
+    description = "Igor Leroy's personal website"
+    keywords = "blog,developer,programming"
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+
+    footercontent = ""
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = true
+    hideCopyright = true
+
+    # Custom CSS
+    custom_css = []
+
+    # RTL support
+    rtl = false
+
+# Social links
+[[params.social]]
+    name = "Github"
+    weight = 1
+    url = "https://github.com/lerrua/"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/lerrua/"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/igorleroy/"
+
+# Menu links
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "/posts/"
+[[menu.main]]
+    name = "About"
+    weight = 2
+    url = "/about/"
