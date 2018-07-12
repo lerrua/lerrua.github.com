@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences wi
     posts = "/blog/:year/:month/:day/:title/"
 
 [params] # theme parameters
-    author = "Leroy"
+    author = "Igor Leroy"
     info = "backend software developer"
     description = "Igor Leroy's personal website"
     keywords = "blog,developer,programming"
