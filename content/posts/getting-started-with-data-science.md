@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2016-03-17T20:23:40-03:00
 title = "Getting started with Data Science"
 slug = "" 

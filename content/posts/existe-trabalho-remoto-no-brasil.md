@@ -1,5 +1,5 @@
 +++ 
-draft = true
+draft = false
 date = 2015-10-18T22:04:40-03:00
 title = "Existe Trabalho Remoto no Brasil?"
 slug = "" 
