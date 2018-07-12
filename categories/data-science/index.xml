@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Science on /lerruá</title>
+    <link>https://www.lerrua.com/categories/data-science/</link>
+    <description>Recent content in Data Science on /lerruá</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 Mar 2016 20:23:40 -0300</lastBuildDate>
+    
+	<atom:link href="https://www.lerrua.com/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Getting started with Data Science</title>
+      <link>https://www.lerrua.com/blog/2016/03/17/getting-started-with-data-science/</link>
+      <pubDate>Thu, 17 Mar 2016 20:23:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/blog/2016/03/17/getting-started-with-data-science/</guid>
+      <description>Data Science has gained a lot of market strength in recent years, a hitherto academic market now draws attention of large companies and startups. Who here does not know someone on Linkedin that was a Software Engineer or Developer and now became a Data Analyst or Data Scientist? It is a new wave of professionals with experience in programming languages like Python, R, Scala, Java along with experience or academic training in areas of mathematics, such as statistics.</description>
+    </item>
+    
+    <item>
+      <title>Primeiros passos com Data Science</title>
+      <link>https://www.lerrua.com/blog/2016/03/08/primeiros-passos-com-data-science/</link>
+      <pubDate>Tue, 08 Mar 2016 22:01:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/blog/2016/03/08/primeiros-passos-com-data-science/</guid>
+      <description>Data Science ou Ciência de Dados vem ganhando muita força de mercado nos últimos anos, um mercado até então acadêmico que agora chama atenção de grandes empresas e startups. Quem aqui não tem um conhecido no Linkedin que de um Software Engineer ou Developer se tornou um Data Analyst ou Data Scientist? É uma nova onda de profissionais com experiência em linguagens de programação como Python, R, Scala, Java juntamente com a experiência ou formação acadêmica em áreas da Matemática, como estatística.</description>
+    </item>
+    
+  </channel>
+</rss>

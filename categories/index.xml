@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on /lerruá</title>
+    <link>https://www.lerrua.com/categories/</link>
+    <description>Recent content in Categories on /lerruá</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 18 Oct 2015 22:04:40 -0300</lastBuildDate>
+    
+	<atom:link href="https://www.lerrua.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Carrer</title>
+      <link>https://www.lerrua.com/categories/carrer/</link>
+      <pubDate>Sun, 18 Oct 2015 22:04:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/categories/carrer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>https://www.lerrua.com/categories/data-science/</link>
+      <pubDate>Thu, 17 Mar 2016 20:23:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/categories/data-science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://www.lerrua.com/categories/development/</link>
+      <pubDate>Sun, 18 Oct 2015 22:04:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://www.lerrua.com/categories/english/</link>
+      <pubDate>Thu, 17 Mar 2016 20:23:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.lerrua.com/categories/python/</link>
+      <pubDate>Thu, 17 Mar 2016 20:23:40 -0300</pubDate>
+      
+      <guid>https://www.lerrua.com/categories/python/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

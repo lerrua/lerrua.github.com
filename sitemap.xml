@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://www.lerrua.com/blog/2016/03/17/getting-started-with-data-science/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/blog/2016/03/08/primeiros-passos-com-data-science/</loc>
+    <lastmod>2016-03-08T22:01:40-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/blog/2015/10/18/existe-trabalho-remoto-no-brasil/</loc>
+    <lastmod>2015-10-18T22:04:40-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/carrer/</loc>
+    <lastmod>2015-10-18T22:04:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/</loc>
+    <lastmod>2015-10-18T22:04:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/data-science/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/development/</loc>
+    <lastmod>2015-10-18T22:04:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/english/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/posts/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/categories/python/</loc>
+    <lastmod>2016-03-17T20:23:40-03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.lerrua.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
